@@ -7,18 +7,12 @@ Ya edité este archivo con mis propias direcciones.
 """
 
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, confusion_matrix
 import pandas as pd
-import glob
 import os
-from sklearn.impute import SimpleImputer
 import numpy as np
 import keras 
-from IPython.display import display
 from keras.models import Sequential
 from keras.layers import Dense, Dropout
-from keras.optimizers import RMSprop
 
 #Controles
 #Acá borré demasiadas líneas. Las pegaré en un documento aparte. PRIMERA PARTE BORRADA.
