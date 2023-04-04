@@ -72,7 +72,7 @@ exit()'''
 y veré el efecto sobre la red..."""
 
 os.chdir(r'C:\Users\jairm\Downloads')
-model = 'red_bin_2_epocas_entrenando_mas_datos_v4_60_epocas.h5'
+model = 'red_bin_2_epocas_entrenando_mas_datos_v2_40_epocas.h5'
 print(colored(f'{model}', 'blue'))
 model = load_model(model)
 

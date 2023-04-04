@@ -134,9 +134,9 @@ Y = np.array(y_1)
 
 
 x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.1) #Parece que esta función los revuelve de una vez...
-dfx = pd.DataFrame(x_train)
+#dfx = pd.DataFrame(x_train)
 #dfx.to_csv('x_train_modified_2.csv', header = False, index = False)
-dfy = pd.DataFrame(y_train)
+#dfy = pd.DataFrame(y_train)
 #dfy.to_csv('y_train_modified_2.csv', header = False, index = False)
 
 #print(f'Esto es x_train\n{x_train}\nesto es y_train\n{y_train}')
